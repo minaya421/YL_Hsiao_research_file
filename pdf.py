@@ -10,7 +10,7 @@ import pikepdf
 
 
 file_path = r"你的資料夾路徑"
-temp_path = r"站存檔路徑" 
+temp_path = r"暫存檔路徑" 
 
 
 with pikepdf.Pdf.open(file_path) as pdf:
